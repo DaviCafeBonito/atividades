@@ -1,0 +1,59 @@
+header{
+background-color:rgb(0, 162, 255);
+display:flex;
+padding:20px;
+gap:20px;
+align-items:flex-end;
+}
+
+header img{
+max-width: 300px;
+background-color:rgb(0, 162, 255);
+height:auto}
+
+.menu{
+color:white;
+display:flex;
+gap:20px;
+}
+.menu li{
+list-style:none;
+}
+ 
+#sim{
+width: 100%;
+height: auto;
+display: block;
+background-color:rgb(122, 12, 108);
+}
+
+body{
+margin: 0;
+padding: 0;}
+ 
+.prdt{
+width:400px;
+height: auto}
+
+#de{
+height:1px;
+width:100%;
+background-color: black;}
+
+#ff{
+margin: 2px;}
+
+footer{
+background-color:rgb(0, 162, 255);
+display:flex;
+gap:2px}
+
+span{
+background-color: white ;
+color:rgb(0, 162, 255)}
+
+#foo{color:rgb(122, 12, 108)
+}
+#fighters{
+color: white}
+
