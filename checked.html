@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checked</title>
+
+    <style>
+        .toggle-input {
+            display: none
+        }
+
+        .btn-toggle {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8e44ad;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .painel-oculto {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: all 0.4s ease;
+            background: #f3e8f9;
+            border-radius: 6px
+        }
+        .toggle-input:checked~.painel-oculto{
+        
+        max-height:150px;
+    opacity:1;
+margin-top:15px;
+padding:15px}
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h2>3. Evento <code>:checked</code>(Abrir/Fechar no Clique)</h2>
+        <input type="checkbox" id="meu-toggle" class="toggle-input">
+        <label for="meu-toggle" class="btn-toggle">Clique para toggle</label>
+
+        <div class="painel-oculto">
+            <p>Surpresa! Este conteúdo foi exibido **sem usar javascript**,
+                apenas usando a pseudo-classe
+                <code>:checked</code> do CSS.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
