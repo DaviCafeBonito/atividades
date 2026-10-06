@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakpoint</title>
+</head>
+<style>
+    @media (max-width:767px) {
+        * {
+            background-color: red;
+            padding: 100px;
+
+        }
+
+        div {
+            border-width: 2px;
+            border-style: solid;
+            border-color: aliceblue;
+        }
+
+    }
+
+    @media (min-width:768px) {
+        * {
+            background-color: greenyellow;
+            padding: 100px;
+        }
+
+        div {
+            border-width: 2px;
+            border-style: solid;
+            border-color: aliceblue;
+        }
+    }
+
+    
+
+    @media(min-width:1024px) {
+        * {
+            background-color: blue;
+            padding: 100px;
+        }
+
+        div {
+            display: inline-block;
+            border-width: 2px;
+            border-style: solid;
+            border-color: aliceblue;
+        }
+    }
+
+    @media(min-width:1440px) {
+        * {
+            background-color: black;
+            color: red;
+            padding: 100px;
+        }
+
+        div {
+            display: inline-block;
+            border-width: 2px;
+            border-style: solid;
+            border-color: aliceblue;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">1</div>
+    <div class="container">2</div>
+    <div class="container">3</div>
+</body>
+
+</html>
