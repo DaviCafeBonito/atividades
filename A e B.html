@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cA e B</title>
+</head>
+
+<body>
+
+    <script>
+        var a = 10
+        var b = 20
+        var c = null
+
+
+        var c = prompt('Deseja trocar os valores de A(10) para B(20)?')
+        if (c == "sim") {
+            c = true
+        }
+        else {
+            document.write('ok <br />')
+        }
+
+        if (c === true) {
+            a = a + 10
+            b = b - 10
+        }
+        document.write('A: ' + a + '<br />')
+        document.write('B: ' + b + '<br />')
+
+
+    </script>
+</body>
+
+</html>
